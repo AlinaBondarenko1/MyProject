@@ -122,7 +122,7 @@ nav li a:hover{
 }
 
 .box_content {
-	height: 800px;
+	height: 1600px;
 	border: 2px solid red;
 	display: flex;
 	flex-direction: column;
@@ -252,7 +252,8 @@ nav li a:hover{
 }
 
 .box2{
-	margin-top: 130px;
+	margin: 119px 0px 80px 0px;
+
 	border: 3px solid #00A4E5;
 	display: flex;
 	flex-direction: row;
@@ -282,7 +283,6 @@ nav li a:hover{
 	width: 50px;
 	height: 2px;
 	background-color: #00A4E5;
-	
 }
 
 /*.line_box2 {
@@ -307,7 +307,81 @@ nav li a:hover{
 
 .box2_content_3 {
 	display: flex;
+	align-items: flex-end;
 	border: 3px solid red;
-	width: 20%;
+	
 }
 
+.button_1{
+	width: 150px;
+	height: 40px;
+	display: flex;
+	border: 2px solid #00A4E5;
+	background: #00A4E5;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	justify-content: center;
+	align-items: center;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.button_1:hover{
+	background: #22559c;
+}
+
+.box3{
+	display: flex;
+	border: 3px solid green;
+	flex-direction: row;
+	color: #48555B;
+}
+/*первая группа элементов*/
+.box3_img_1{
+	display: flex;
+	border: 3px solid green;
+}
+
+.box3_Main_text_1{
+	display: flex;
+	border: 3px solid red;
+}
+
+.box3_text_1{
+	display: flex;
+	border: 3px solid green;
+}
+
+/*вторая группа элементов*/
+.box3_img_2{
+	display: flex;
+	border: 3px solid green;
+}
+
+.box3_Main_text_2{
+	display: flex;
+	border: 3px solid red;
+}
+
+.box3_text2_{
+	display: flex;
+	border: 3px solid green;
+}
+
+/*третья группа элементов*/
+.box3_img_3{
+	display: flex;
+	border: 3px solid green;
+}
+
+.box3_Main_text_3{
+	display: flex;
+	border: 3px solid red;
+}
+
+.box3_text_3{
+	display: flex;
+	border: 3px solid green;
+}
