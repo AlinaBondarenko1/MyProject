@@ -39,6 +39,16 @@ body {
 	font-size: 30px;
 }
 
+.triangle {
+	border-top: 11px solid transparent;
+	border-right: 10px solid #00A4E5;
+	border-bottom: 11px solid transparent;
+	margin-right: 2.5px;
+	margin-left: 1px;
+	height: 0;
+	width: 0;
+}
+
 .header_content_centr{
 	border: 2px solid yellow;
 	height: 60%;
@@ -75,8 +85,9 @@ body {
 }
 
 .logo_menu {
-	height: 20%;
 	display: flex;
+	justify-content: center;
+	align-items:center;
 	border: 2px solid yellow;
 	font-weight: bold;
 }
