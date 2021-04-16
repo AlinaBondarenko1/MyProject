@@ -16,17 +16,7 @@ body {
     src: url("../Fonts/bebas-neue-bold.ttf");
 }
 
-/* Контейнер для разметки основного контента*/
-.container {
-	width: 100%;
-	max-width: 941px;
-	margin: 0 auto;
-	border: 2px solid red;
-}
-
-.up_container_main {
-	display: flex;
-	flex-direction: columns;
+.header_container {
 	height: 100vh;
 	background: url("../Img/bg.jpg") no-repeat;
 }
@@ -34,10 +24,11 @@ body {
 .logo {
 	height: 20%;
 	display: flex;
-	position: relative;
 	border: 2px solid yellow;
+	font-weight: bold;
 	justify-content: center;
-
+	align-items: center;
+	color: white;
 }
 
 .logo div {
@@ -48,7 +39,7 @@ body {
 	font-size: 30px;
 }
 
-.header_content_centr {
+.header_content_centr{
 	border: 2px solid yellow;
 	height: 60%;
 	display: flex;
@@ -66,18 +57,21 @@ body {
 	border: 2px solid yellow;
 	height: 18%;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin: 0;
 }
+
 .menu {
-	border: 2px solid yellow;
+	border: 2px solid red;
+	max-width: 941px;
 	height: 65px;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 1px solid #E6E6E6;
+
 }
 
 .logo_menu {
@@ -119,11 +113,14 @@ nav li a:hover{
 	color: #00A4E5;
 }
 
-.box_content {
-	height: 920px;
+.content_container {
+	max-width: 941px;
+	margin: 0 auto;
+	height: 1000px;
 	border: 2px solid red;
 	display: flex;
 	flex-direction: column;
+
 }
 
 .box1{
@@ -150,11 +147,6 @@ nav li a:hover{
 	background-color: #00A4E5;
 	margin: 0 auto;
 }
-/*.line {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}*/
 
 .Box_All_Content{
 	height: 265px;
@@ -251,12 +243,13 @@ nav li a:hover{
 
 .box2{
 	margin:100px 0px 80px 0px;
-
 	border: 3px solid #00A4E5;
+	display: flex;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	color: #48555B;
+
 }
 
 .box2_content_1 {
@@ -283,12 +276,6 @@ nav li a:hover{
 	background-color: #00A4E5;
 }
 
-/*.line_box2 {
-	display: flex;
-	position: absolute;
-	top: 35px;
-}*/
-
 .box2_content_2 {
 	display: flex;
 	border: 3px solid red;
@@ -301,7 +288,6 @@ nav li a:hover{
 	font-size: 11px;
 	line-height: 19px;
 }
-
 
 .box2_content_3 {
 	display: flex;
@@ -333,7 +319,7 @@ nav li a:hover{
 .box3{
 	display: flex;
 	justify-content: space-between;
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 	color: #48555B;
 }
 /*первая группа элементов*/
@@ -354,55 +340,207 @@ nav li a:hover{
 }
 .box3_img_1{
 	display: flex;
-
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 }
 
 .box3_Main_text_1{
 	display: flex;
-	/*border: 3px solid red;*/
+	border: 3px solid red;
 }
 
 .box3_text_1{
 	display: flex;
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 }
 
 /*вторая группа элементов*/
 .box3_img_2{
 	display: flex;
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 }
 
 .box3_Main_text_2{
 	display: flex;
-	/*border: 3px solid red;*/
+	border: 3px solid red;
 }
 
-.box3_text2_{
+.box3_text_2{
 	display: flex;
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 }
 
 /*третья группа элементов*/
 .box3_img_3{
 	display: flex;
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 }
 
 .box3_Main_text_3{
 	display: flex;
-	/*border: 3px solid red;*/
+	border: 3px solid red;
 }
 
 .box3_text_3{
 	display: flex;
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 }
 
-.lower_section{
+.footer_container{
 	width: 100%;
 	height: 100vh;
 	background: url("../Img/bgDown.jpg") no-repeat;
+}
+
+.footer_container_up{
+	width: 1440px;
+	height: 499px;
+	display: flex;
+	flex-direction: column;
+}
+
+.heading_text{
+	display: flex;
+	height: 30%;
+	justify-content: center;
+	align-items: flex-end;
+	border: 3px solid red;
+	color: #48555B;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.footer_button{
+	display: flex;
+	align-items: flex-start;
+	height: 25%;
+	justify-content: center;
+	border: 3px solid red;
+}
+
+.footer_sheach{
+	width: 100%;
+	height: 100px;
+	border: 3px solid orange;
+	background: #171819;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.sheach_text{
+	border: 3px solid red;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 0.846154px;
 
 }
+
+.sheach_btn{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border: 3px solid red;
+	padding-left: 70px;
+
+}
+
+form.sheach_line input[type=text] {
+	width: 250px;
+	height: 40px;
+  	background: #FFFFFF;
+	border: 1px solid #979797;
+  	
+}
+
+form.sheach_line button {
+	width: 150px;
+	height: 44px;
+	float: right;
+  	background: #2196F3;
+  	color: white;
+  	font-size: 17px;
+  	border: 1px solid grey;
+ 	cursor: pointer;
+}
+
+form.sheach_line button:hover{
+	background: #22559c;
+}
+
+.footer_summary{
+	border: 3px solid red;
+	width: 1440px;
+	height: 240px;
+	background: #141A20;
+	display: flex;
+	flex-direction: row;
+}
+
+.company{
+	border: 3px solid green;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer_logo {
+	height: 20%;
+	display: flex;
+	border: 2px solid yellow;
+	font-weight: bold;
+	
+	align-items: center;
+	color: white;
+}
+.footer_company{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.company_text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 19px;
+	letter-spacing: 0.85px;
+	width: 250px;
+	height: 76px;
+}
+
+.footer_logo div {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-family: 'Bebas-neue-bold';
+	font-size: 30px;
+}
+
+.fotter_links_content {
+	border: 3px solid green;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.fotter_links_content li{
+	font-size: 12px;
+	list-style: none;
+	text-transform: uppercase;
+
+}
+
+.fotter_links_content a{
+	color: white;
+	text-decoration: none;
+}
+
+
