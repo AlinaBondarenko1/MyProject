@@ -405,10 +405,18 @@ nav li a:hover{
 	align-items: flex-end;
 	border: 3px solid red;
 	color: #48555B;
+}
+
+.heading_text h2{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.15px;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
 	line-height: 36px;
+	border: 3px solid green;
 }
 
 .footer_button{
@@ -481,6 +489,8 @@ form.sheach_line button:hover{
 	height: 240px;
 	background: #141A20;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: row;
 }
 
@@ -495,7 +505,8 @@ form.sheach_line button:hover{
 	display: flex;
 	border: 2px solid yellow;
 	font-weight: bold;
-	
+	padding-top: 5px;
+	padding-bottom: 10px;
 	align-items: center;
 	color: white;
 }
@@ -504,6 +515,7 @@ form.sheach_line button:hover{
 	font-weight: normal;
 	font-size: 11px;
 	line-height: 15px;
+	padding-top: 42px;
 }
 
 .company_text{
@@ -527,7 +539,11 @@ form.sheach_line button:hover{
 .fotter_links_content {
 	border: 3px solid green;
 	display: flex;
-	flex-direction: column;
+	width: 262px;
+	
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 	align-items: center;
 
 }
@@ -543,4 +559,90 @@ form.sheach_line button:hover{
 	text-decoration: none;
 }
 
+.col_links_1{
+	
+	border: 2px solid yellow;
+}
+.col_links_1 a{
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 25px;
+	letter-spacing: 0.846154px;
 
+}
+
+.col_links_2{
+	border: 2px solid yellow;
+}
+
+.col_links_2 a{
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 25px;
+	letter-spacing: 0.846154px;
+
+}
+
+.col_links_3{
+	border: 2px solid yellow;
+}
+
+.col_links_3 a{
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 25px;
+	letter-spacing: 0.846154px;
+
+}
+
+.contact{
+	border: 2px solid orange;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 147px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 0.846154px;
+}
+
+
+.icons{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid red;
+}
+
+.icons_2 img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.position_Infoot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 941px;
+	height: 240px;
+	border: 2px solid white;
+}
+
+.copyright{
+	width: 1440px;
+	height: 60px;
+	background: #171819;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright_text{
+	display: flex;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 15px;
+	letter-spacing: 0.846154px;
+}
