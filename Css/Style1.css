@@ -1,6 +1,6 @@
 *,
 *:before,
-*:after, {
+*:after {
 	box-sizing: border-box;
 }
 
@@ -135,7 +135,7 @@ nav li a:hover{
 }
 
 .box1{
-	margin-top: : 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
