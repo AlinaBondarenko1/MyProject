@@ -490,6 +490,15 @@ form.sheach_line button {
  	cursor: pointer;
 }
 
+form.sheach_line button i {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: 0.5px;
+}
+
+
 form.sheach_line button:hover{
 	background: #22559c;
 }
@@ -570,15 +579,21 @@ form.sheach_line button:hover{
 }
 
 .col_links_1{
-	
 	border: 2px solid yellow;
 }
+
 .col_links_1 a{
 	font-weight: 600;
 	font-size: 11px;
 	line-height: 25px;
 	letter-spacing: 0.846154px;
 
+}
+
+.fotter_links_content li a:hover{
+	font-style: normal;
+	font-weight: bold;
+	color: #00A4E5;
 }
 
 .col_links_2{

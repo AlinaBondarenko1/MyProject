@@ -1,0 +1,144 @@
+*,
+*:before,
+*:after, {
+	box-sizing: border-box;
+}
+
+h1,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'Bebas-neue-bold';
+    src: url("../Fonts/bebas-neue-bold.ttf");
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #48555B;
+	font-size: 13px;
+
+}
+
+.container{
+	width: 100%;
+	max-width: 941px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+.header{
+	font-family: 'Open Sans';
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	background:#48555B url("../Img/bg.jpg") no-repeat center top / cover;
+	height: 769px;
+	font-style: normal;
+	font-weight: 600;
+
+}
+
+.triangle {
+	border-top: 11px solid transparent;
+	border-right: 10px solid #00A4E5;
+	border-bottom: 11px solid transparent;
+	margin-right: 2.5px;
+	margin-left: 1px;
+	height: 0;
+	width: 0;
+
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	border: 2px solid yellow;
+	font-weight: bold;
+	font-family: 'Bebas-neue-bold';
+	font-size: 30px;
+}
+
+.header__content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 769px;
+}
+.header__centr-content{
+	border: 2px solid yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header__content-title{
+	display: flex;
+	font-family: 'Bebas-neue-bold';
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: 5.70937px;
+}
+
+.header__content-discription{
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.header__content-scroll{
+	font-size: 11px;
+	line-height: 15px;
+	letter-spacing: 3.7px;
+}
+
+.menu{
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu__list{
+	display: flex;
+}
+
+.menu__list-item{
+	padding-left: 5px;
+	padding-right: 20px;
+}
+
+.menu__link{
+	color: #48555B;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.menu__link:hover{
+	font-style: normal;
+	font-weight: bold;
+	color: #00A4E5;
+}
+
+/* nav{
+	list-style: none;
+	text-transform: uppercase;
+	display: flex;
+}
+
+nav a{
+	color: #48555B;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+
+nav li a:hover{
+	font-style: normal;
+	font-weight: bold;
+	color: #00A4E5;
+} */
