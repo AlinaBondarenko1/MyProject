@@ -56,10 +56,14 @@ body {
 	flex-direction: column;
 }
 
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+
 .logo{
 	display: flex;
 	align-items: center;
-	border: 2px solid red;
 	font-weight: bold;
 	font-family: 'Bebas-neue-bold';
 	font-size: 35px;
@@ -135,22 +139,28 @@ body {
 	width: 50px;
 	height: 2px;
 	background-color: #00A4E5;
-	margin: 0 auto;
+
 }
 
 .about{
 	margin-top: 50px;
 	width: 941px;
-	height: 344px;
 }
 
-.about__title{
+.about__header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.about__caption{
 	justify-content: center;
 	align-items: center;
 }
 
-.title{
-font-family: Open Sans;
+.caption{
+font-family: 'Open Sans';
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
@@ -162,4 +172,76 @@ letter-spacing: 2.30625px;
 .line{
 	padding-top: 10px;
 	display: flex;
+}
+
+.about__col{
+	width: 50%;
+	justify-content: space-between;
+}
+
+.about__row{
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.about__title{
+	margin-top: 70px;
+	margin-bottom: 30px;
+	padding-right: 90px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	display: flex;
+	letter-spacing: 0.1875px;
+}
+
+.about__subtitle{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 23px;
+	display: flex;
+	letter-spacing: 0.1875px;
+	padding-right: 60px;
+}
+
+.item-about{
+	border: 3px solid #df1088;
+	display: flex;
+}
+
+.services {
+	margin-top: 116px;
+	height: 446px;
+	border: 3px solid #10df66;
+}
+
+.service__lead{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button{
+	width: 150px;
+	height: 40px;
+	display: flex;
+	background: #00A4E5;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	justify-content: center;
+	align-items: center;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.services__button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
