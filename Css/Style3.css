@@ -352,17 +352,6 @@ body {
 	align-items: center;
 }
 
-.footer_company{
-	border: 3px solid red;
-}
-
-.footer_links{
-	border: 3px solid red;
-}
-
-.item-link{
-	border: 3px solid green;
-}
 
 .footer__list-item {
 	list-style-type: none;
@@ -382,14 +371,10 @@ body {
 	justify-content: space-between;
 	align-items: center; 
 }
-.footer-section{
-	display: flex;
-	border: 3px solid yellow;
-}
 
 .footer-title{
-	border: 3px solid rgb(235, 69, 193);
 	display: flex;
+	margin-bottom: 10px;
 }
 
 .footer_company{
