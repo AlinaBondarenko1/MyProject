@@ -349,18 +349,65 @@ body {
 
 .footer__row{
 	border: 3px solid red;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	}
 
 	.footer__container-link{
 		border: 3px solid yellow;
+		justify-content: space-between;
+		align-items: center;
+		width: 262px;
+
 		}
 
 		.footer__title{
-			margin-bottom: 10px;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 11px;
+			line-height: 15px;
+			letter-spacing: 0.846154px;
 		}
 
-	.footer__company{
-width: 30%;
+
+		.footer__list-item {
+			list-style-type: none;
+			list-style-type: none;
+		}
+		
+		.footer__link {
+			text-decoration: none;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 11px;
+			line-height: 25px;
+			letter-spacing: 0.846154px;
+			color: #FFFFFF;
+		}
+
+	.footer__socials {
+		border: 3px solid red;
+		display: flex;
+		}
+
+.footer__company{
+	width: 141px;
+}
+
+.footer__socials i{
+	color: #FFFFFF;
+	width: 20px;
+}
+
+		.copyright{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 60px;
+			background: #171819;
+			color: #FFFFFF;
+			font-size: 11px;
+			line-height: 15px;
+			letter-spacing: 0.846154px;
 		}
