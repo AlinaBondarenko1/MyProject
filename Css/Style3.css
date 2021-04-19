@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Bebas-neue-bold';
+	src: url("../Fonts/bebas-neue-bold.ttf");
+}
+
 *,
 *:before,
 *:after {
@@ -10,11 +15,6 @@ h3,
 p {
 	margin: 0;
 	padding: 0;
-}
-
-@font-face {
-	font-family: 'Bebas-neue-bold';
-	src: url("../Fonts/bebas-neue-bold.ttf");
 }
 
 body {
@@ -348,7 +348,7 @@ body {
 	height: 240px;
 	background: #141A20;
 	color: #FFFFFF;
-	display: flex; 
+	display: flex;
 	align-items: center;
 }
 
@@ -367,35 +367,41 @@ body {
 	color: #FFFFFF;
 }
 
-.footer_links{
+.footer_links {
 	justify-content: space-between;
-	align-items: center; 
+	align-items: center;
 }
 
-.footer-title{
+.footer-title {
 	display: flex;
 	margin-bottom: 10px;
 }
 
-.footer_company{
+.footer_company {
 	width: 270px;
 }
 
-.footer_links{
+.footer_links {
 	width: 262px;
 }
 
-.footer_contact{
+.footer_contact {
 	width: 141px;
 }
 
-.footer_socials{
+.footer_contact p{
+	padding: 3px;
+}
+
+
+
+.footer_socials {
 	width: 87px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.footer_socials i{
+.footer_socials i {
 
 	margin-top: 25px;
 	color: #FFFFFF;
