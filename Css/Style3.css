@@ -372,7 +372,7 @@ body {
 
 .footer_links {
 	justify-content: space-between;
-	align-items: center;
+	width: 262px;
 }
 
 .footer-title {
@@ -384,8 +384,10 @@ body {
 	width: 270px;
 }
 
-.footer_links {
-	width: 262px;
+.footer__link:hover {
+	font-style: normal;
+	font-weight: bold;
+	color: #00A4E5;
 }
 
 .footer_contact {
@@ -395,8 +397,6 @@ body {
 .footer_contact p {
 	padding: 3px;
 }
-
-
 
 .footer_socials {
 	width: 87px;
